@@ -54,3 +54,12 @@ a:active {
 h1 {
   text-align: center;
 }
+
+.link-nodeco:hover {
+  text-decoration: underline;
+  color: rgb(182, 43, 43);
+}
+
+.link-nodeco:active {
+  color: blue;
+}
