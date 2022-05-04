@@ -11,6 +11,7 @@ html {
 
 body {
   background-image: url(./img/bg.jpg);
+  line-height: 1.7rem;
 }
 
 .main-container {
@@ -24,13 +25,17 @@ body {
 .navbar-container {
   width: 75%;
   margin: 1rem auto;
+  text-align: center;
 }
 
 .navbar > li {
   display: inline-block;
   text-align: center;
-  margin-left: 2rem;
-  padding: 2rem 1rem;
+  font-size: 1.6rem;
+  width: fit-content;
+  margin-left: 0 auto;
+  padding: 1.5rem;
+  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
 }
 
 /* links */
@@ -49,17 +54,53 @@ a:active {
   color: red;
 }
 
-/* Main */
-
-h1 {
-  text-align: center;
-}
-
-.link-nodeco:hover {
+.link-main:hover {
   text-decoration: underline;
   color: rgb(182, 43, 43);
 }
 
-.link-nodeco:active {
+.link-main:active {
   color: blue;
+}
+
+/* Main */
+
+h1 {
+  font-size: 3rem;
+  font-weight: 200;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  margin: 3rem 0 1.5rem;
+  letter-spacing: 1px;
+  font-size: 1.8rem;
+}
+
+h3 {
+  margin: 0.6rem 0 0 0;
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+.indent {
+  margin: 0.2rem 0 0.5rem 0.5rem;
+}
+
+/* Footer */
+
+footer {
+  width: fit-content;
+  margin: 1.5rem auto;
+  padding: 1.5rem 3rem;
+  text-align: center;
+  font-size: 1.6rem;
+
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.544);
 }
