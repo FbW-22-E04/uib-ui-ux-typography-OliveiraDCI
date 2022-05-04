@@ -8,3 +8,49 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
+
+body {
+  background-image: url(./img/bg.jpg);
+}
+
+.main-container {
+  width: 75%;
+  margin: 1rem auto;
+  padding: 2rem 7rem;
+  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 30px;
+}
+
+.navbar-container {
+  width: 75%;
+  margin: 1rem auto;
+}
+
+.navbar > li {
+  display: inline-block;
+  text-align: center;
+  margin-left: 2rem;
+  padding: 2rem 1rem;
+}
+
+/* links */
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: brown;
+}
+
+a:hover {
+  text-decoration: overline;
+}
+
+a:active {
+  color: red;
+}
+
+/* Main */
+
+h1 {
+  text-align: center;
+}
